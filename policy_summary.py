@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 # ------------------------- Config -------------------------
 
-CHAT_API_KEY = "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"  # API key from DeepSeek
+CHAT_API_KEY = "get link from openrouter"  # API key from DeepSeek
 model_path = "global_model(2).h5"
 
 # ---------------------- Load Data -------------------------
@@ -207,4 +207,5 @@ with tabs[1]:
 
         except Exception as e:
             st.error(f"Failed to analyze {selected_country_name}: {e}")
+
 
