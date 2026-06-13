@@ -16,3 +16,6 @@ Evaluation: Tracks class distribution, accuracy, and loss on local and global da
 Tech Stack: Python, Keras, NumPy, Flower (FL framework), Scikit-learn, SHAP, Streamlit
 
 Data Src: OWID-CO2 dataset from Our World in Data
+
+🚨 Note: The API key is temporarily disabled due to limited credits
+[CO2 Policy App](https://co2-emission-monitoring-federated-learning.streamlit.app/)
