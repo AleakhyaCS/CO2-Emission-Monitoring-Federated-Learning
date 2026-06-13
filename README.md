@@ -17,5 +17,5 @@ Tech Stack: Python, Keras, NumPy, Flower (FL framework), Scikit-learn, SHAP, Str
 
 Data Src: OWID-CO2 dataset from Our World in Data
 
-🚨 Note: The API key is temporarily disabled due to limited credits
+🚨 Note: The API key is temporarily disabled due to limited credits (will be enabled upon request for demo)
 [CO2 Policy App](https://co2-emission-monitoring-federated-learning.streamlit.app/)
