@@ -197,15 +197,12 @@ with tabs[1]:
             X_localr, _ = data_by_country[selected_country_id]
             X_local = scaler_final.transform(X_localr) #Scale the data to ensure consistency with model inputs during training
             X_local_df = pd.DataFrame(X_local, columns=feature_names_c)
-            st.write(X_local)
 
             explainer_local = shap.Explainer(model, X_sample)
             shap_values_local = explainer_local(X_local_df)
-            st.write(shap_values_local)
 
             shap_text_local, shap_df_local = convert_shap_to_text(shap_values_local, feature_names)
             summary_local = summarize_with_openrouter(shap_text_local)
-            st.write("this is shap df",shap_df_local)
 
             plot_top_shap_bar(shap_df_local, title=f"Top Feature Importances for {selected_country_name}")
 
