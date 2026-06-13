@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 # ------------------------- Config -------------------------
 
-CHAT_API_KEY = "YOUR_KEY"  # API key from DeepSeek
+CHAT_API_KEY = st.secrets["YOUR_KEY"]  # API key from DeepSeek
 model_path = "global_model(2).h5"
 
 # ---------------------- Load Data -------------------------
